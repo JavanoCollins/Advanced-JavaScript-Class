@@ -19,7 +19,7 @@
                     <router-link to="/register" tag="li">
                         <a>Reservation</a>
                     </router-link>
-                    <button>Subscribe</button>
+                    <button>Subscribe To Our Newsletter</button>
                 </div>
                 <div class="social-media">
                     <h3>Social Media</h3>
