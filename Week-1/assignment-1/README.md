@@ -1,4 +1,4 @@
-# assignment-1
+# kings-kitchen
 
 ## Project setup
 ```
