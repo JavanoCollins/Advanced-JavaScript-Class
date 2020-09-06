@@ -1,0 +1,59 @@
+.team-present {
+    margin: 0 auto;
+    h1 {
+        font-family: "Dancing Script";
+        font-size: 5rem;
+        text-align: center;
+        color: #f44006;
+
+       
+    }
+}
+
+.team-items {
+    margin: 0 auto;
+    img {
+        width: 400px;
+        height: 280px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        border-radius: 8px;
+        transform: scale(1);
+        transition: all 0.2s;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: all 0.2s;
+        }
+    }
+
+    .row-1 {
+        padding-top: 3rem;
+    }
+    .team-row {
+        display: flex;
+        margin: 0 auto;
+
+        .team-item {
+            margin: auto;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                text-align: center;
+                font-family: Roboto;
+                padding: .8rem;
+            }
+
+            .meal-title {
+            }
+
+            .price {
+            }
+        }
+    }
+}

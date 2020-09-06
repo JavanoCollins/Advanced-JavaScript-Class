@@ -1,0 +1,20 @@
+.about-present {
+  margin: 0 auto;
+}
+
+.about-present h1 {
+  font-family: "Dancing Script";
+  font-size: 5rem;
+  text-align: center;
+  color: #f44006;
+}
+
+.about-present p {
+  font-size: 1.3rem;
+  text-align: center;
+  width: 80%;
+  margin: 3rem auto 4rem;
+  line-height: 1.4;
+  font-family: Roboto;
+}
+/*# sourceMappingURL=about.css.map */

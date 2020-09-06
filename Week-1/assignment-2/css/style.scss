@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+#navbar {
+    display: flex;
+    // background-color: #977E6A;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    margin: 0 3rem;
+
+    #title {
+        font-family: "Dancing Script";
+        font-size: 2.5rem;
+        color: #efd28d;
+    }
+
+    .nav-items {
+        display: flex;
+
+        li {
+            padding: 0.6rem;
+            margin-bottom: 10px;
+        }
+        .nav-item {
+            a {
+                font-family: "Roboto";
+                font-size: 1.2rem;
+                color: #fff;
+                transition: all 0.2s;
+                border-bottom: none;
+                &.active {
+                    color: #f44006;
+                }
+
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 0;
+                    height: 2px;
+                    background: #f44006;
+                    transition: width 0.3s;
+                }
+                &:hover::after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    background-color: #181818;
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+
+    #footer-title {
+        font-family: "Dancing Script";
+        color: #f44006;
+        font-size: 1.5rem;
+    }
+
+    .footer-item {
+        width: 50%;
+    }
+
+    .footer-name {
+        font-size: 2rem;
+        font-family: "Dancing Script";
+        color: #efd28d;
+    }
+
+    .social-media {
+        .fa {
+            color: #fff;
+            font-size: 1.7rem;
+            margin-right: 0.5rem;
+        }
+
+        .social-media-links {
+            margin-top: 1rem;
+        }
+    }
+
+    .support {
+        #support-title {
+            color: rgb(117, 117, 117);
+        }
+    }
+    .support-items {
+        font-family: Roboto;
+        margin: 1rem 0;
+
+        p {
+            color: #fff;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+    }
+
+    .newsletter {
+        input {
+            width: 100%;
+            padding: 0.7rem;
+            border-radius: 5px;
+            border: none;
+        }
+    }
+
+    #newsletter-btn {
+        padding: 0.7rem;
+        width: 100%;
+        margin: 1rem 0;
+        background-color: #f44006;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
