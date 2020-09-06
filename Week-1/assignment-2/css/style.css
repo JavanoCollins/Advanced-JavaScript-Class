@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+#header {
+  background-color: #181818;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
@@ -68,20 +72,19 @@
 }
 
 #footer {
-  background-color: #181818;
+  background-color: #2e2e2e;
   padding: 4rem 10rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 5rem;
 }
 
 #footer #footer-title {
-  font-family: "Dancing Script";
+  font-family: "Roboto";
   color: #f44006;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #footer .footer-item {
@@ -89,7 +92,7 @@
 }
 
 #footer .footer-name {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: "Dancing Script";
   color: #efd28d;
 }

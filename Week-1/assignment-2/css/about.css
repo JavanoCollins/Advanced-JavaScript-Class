@@ -1,3 +1,7 @@
+#header {
+  height: 100vh;
+}
+
 .about-present {
   margin: 0 auto;
 }
@@ -13,8 +17,14 @@
   font-size: 1.3rem;
   text-align: center;
   width: 80%;
-  margin: 3rem auto 4rem;
+  margin: auto;
+  padding: 3rem 0;
   line-height: 1.4;
   font-family: Roboto;
+  color: #fff;
+}
+
+.about-present p:last-child {
+  padding: .5rem 0;
 }
 /*# sourceMappingURL=about.css.map */

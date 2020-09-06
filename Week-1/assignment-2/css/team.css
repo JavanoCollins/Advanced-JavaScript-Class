@@ -1,5 +1,7 @@
 .team-present {
   margin: 0 auto;
+  color: #fff;
+  padding-bottom: 5.6rem;
 }
 
 .team-present h1 {
@@ -63,6 +65,11 @@
   font-size: 1.5rem;
   text-align: center;
   font-family: Roboto;
-  padding: .8rem;
+  padding: 0.8rem;
+}
+
+.team-items .team-row .team-item .message {
+  font-size: .9rem;
+  padding: .7rem;
 }
 /*# sourceMappingURL=team.css.map */
