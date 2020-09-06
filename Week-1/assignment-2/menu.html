@@ -43,21 +43,21 @@
                     <!-- Row 1 -->
                     <div class="menu-row row-1">
                         <div class="menu-item">
-                            <img src="img/meal-1.jpg" alt="" />
+                            <img class="myImg" src="img/meal-1.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Carrots</p>
                                 <p class="price">$45</p>
                             </div>
                         </div>
                         <div class="menu-item">
-                            <img src="img/meal-2.jpg" alt="" />
+                            <img class="myImg" src="img/meal-2.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Potatoes</p>
                                 <p class="price">$35</p>
                             </div>
                         </div>
                         <div class="menu-item">
-                            <img src="img/meal-3.jpg" alt="" />
+                            <img class="myImg" src="img/meal-3.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Mushrooms</p>
                                 <p class="price">$50</p>
@@ -67,26 +67,36 @@
                     <!-- Row 2 -->
                     <div class="menu-row row-2">
                         <div class="menu-item">
-                            <img src="img/meal-4.jpg" alt="" />
+                            <img class="myImg" src="img/meal-4.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Broccoli</p>
                                 <p class="price">$30</p>
                             </div>
                         </div>
                         <div class="menu-item">
-                            <img src="img/meal-5.jpg" alt="" />
+                            <img class="myImg" src="img/meal-5.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Tomatoe Sauce</p>
                                 <p class="price">$60</p>
                             </div>
                         </div>
                         <div class="menu-item">
-                            <img src="img/meal-6.jpg" alt="" />
+                            <img class="myImg" src="img/meal-6.jpg" alt="" />
                             <div>
                                 <p class="meal-title">Steak n' Asparagus</p>
                                 <p class="price">$65</p>
                             </div>
                         </div>
+                    </div>
+                    <div id="myModal" class="modal">
+                        <!-- The Close Button -->
+                        <span class="close">&times;</span>
+
+                        <!-- Modal Content (The Image) -->
+                        <img class="modal-content" id="img01" />
+
+                        <!-- Modal Caption (Image Text) -->
+                        <div id="caption"></div>
                     </div>
                 </div>
             </div>
@@ -131,7 +141,7 @@
                 <div class="newsletter footer-item">
                     <p id="footer-title">Newsletter</p>
                     <div class="support-items">
-                        <input type="text" />
+                        <input type="text" placeholder="Email"/>
                         <button id="newsletter-btn">Subscibe</button>
                     </div>
                 </div>
